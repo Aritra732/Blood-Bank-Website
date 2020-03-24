@@ -1,0 +1,91 @@
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  float: left;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: red;
+}
+
+
+.round {
+  border-radius: 50%;
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+h3{
+	text-align:center;
+	  border: 2px solid red;
+    border-radius: 12px;
+    margin: 25px 500px 20px 500px;
+	padding: 20px;
+	 background-color: #FFA500;
+}
+.su{
+	padding: 25px;
+	color:red;
+}
+
+#myInput {
+  background-position: 10px 10px;
+  background-color: 	#4682B4;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 2px dotted #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  background-color:	#90EE90;
+
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+   border-bottom: 1px solid red;
+    border-right: 1px solid red;
+	text-align:center;
+	max-width:100px;
+  overflow: auto;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+   border-bottom: 1px solid red;
+    border-right: 1px solid red;
+	text-align:center;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1; 
+width:20px;  
+}
+.btn_search{
+	    margin-top: 18px;
+    width: 100px;
+    padding: 8px;
+    border: none;
+    outline: none
+	
+}

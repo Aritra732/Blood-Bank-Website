@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+    margin: 0;
+	
+    
+}
+h2{
+	text-align:center;
+    position: relative;
+    /* Standard syntax */
+ 
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+}
+
+
+h1{ text-align: left;
+position: relative;
+color:#FF0040  ;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+ 
+  
+}
+
+
+.btn-group button {
+     background: linear-gradient(to bottom left, #0000ff 35%, #cc99ff 58%); /* Green background */
+    border: 1px solid green;
+  border-radius: 12px;	/* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 12%; /* Set a width if needed */
+    display: inline-block; /* Make the buttons appear below each other */
+	margin:15px;
+    float: right;
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+form{
+    border:1px solid;
+    width:50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}

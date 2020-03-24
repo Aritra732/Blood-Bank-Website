@@ -1,0 +1,156 @@
+body, html {
+    height: 100%;
+    margin: 0;
+	
+    
+}
+h2{
+	width: 400px;
+ 
+    position: relative;
+    /* Standard syntax */
+     animation: mymove 5s infinite;
+     animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border:1px dashed ;
+    border-radius: 5px;
+     background: linear-gradient(to bottom left, #009999 43%, #ffff66 56%);
+}
+
+/* Standard syntax */
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 500px;}
+}
+}
+
+
+h1{ text-align: left;
+position: relative;
+color:#FF0040  ;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("nn.jpg");
+}
+
+.topnav {
+  overflow: hidden;
+  background-image: repeating-linear-gradient(#0AFAB7, #F9E79F, violet);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ff0000  ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-bottom: 2px solid red;
+}
+
+.topnav a.active {
+  background-color: #cc0000;
+  
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+.navbar {
+  overflow: hidden;
+  color:black; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #AEB6BF;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.btn-group button {
+    background: linear-gradient(to bottom left, #9933ff 43%, #ccff66 56%);/* Green background */
+    border: 1px solid green;
+  border-radius: 12px;	/* Green border */
+    color: black; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 12%; /* Set a width if needed */
+    display: inline-block; /* Make the buttons appear below each other */
+	margin:15px;
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+
+.a1{
+  
+    
+	margin-top: 25px; 
+	margin-left:150px;
+	
+ 
+
+}
+
+
+
